@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Seismic Data Heatmap</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script> <!-- Updated to latest D3.js -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Seismic Activity Heatmap</h1>
+    <input type="file" id="fileInput" accept=".csv" />
+    <div id="my_dataviz"></div>
+    <script src="script.js"></script>
+</body>
+</html>
